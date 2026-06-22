@@ -29,3 +29,10 @@ img, picture, video, canvas, svg {
   margin: 0 auto;
   padding: 0 20px;
 }
+
+body {
+  background-image: https://pin.it/1cc7stZ8q;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
