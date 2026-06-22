@@ -36,12 +36,19 @@ img, picture, video, canvas, svg {
 }
 
 body {
-    background-image: url('img/background.jpg');
+    margin: 0;
+    padding: 0;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url('background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
-    color: white;
-    margin: 0;
-    padding: 0;
+    filter: blur(8px); /* Efek blur langsung ke gambar */
+    z-index: -1;
+    transform: scale(1.1); /* Biar pinggiran blurnya ga keliatan putih bocor */
 }
