@@ -31,8 +31,15 @@ img, picture, video, canvas, svg {
 }
 
 body {
-  background-image: https://pin.it/1cc7stZ8q;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: background.jpg;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
   
