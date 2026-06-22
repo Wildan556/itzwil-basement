@@ -28,6 +28,11 @@ img, picture, video, canvas, svg {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 body {
@@ -41,5 +46,3 @@ body {
     margin: 0;
     padding: 0;
 }
-
-  
