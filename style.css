@@ -60,3 +60,10 @@ body {
   height: auto;
   display: block;
 }
+.start-tombol: hover {
+  transform: scale(1.10);
+  transition: transform 0.25s;
+}
+.start-tombol: active {
+  transform: scale(0.90);
+}
