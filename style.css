@@ -17,12 +17,6 @@ body {
   color: #333333;
 }
 
-img, picture, video, canvas, svg {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 .judul1 {
   width: 5;
   margin: 0 auto;
