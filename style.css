@@ -30,22 +30,27 @@ body {
             background-position: center;
             background-attachment: fixed;
         }
-
+.tulis1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .judul1 {
   display: flex;
   justify-content: center;
   width: 80%;
 }
-
 .subjudul1 {
   display: flex;
   justify-content: center;
   width: 80%;
 }
 
-.start-tombol {
-  display: flex;
+.tombol {
+   display: flex;
   justify-content: center;
+}
+.start-tombol {
   background: transparent:
   border: none:
   padding: 0:
