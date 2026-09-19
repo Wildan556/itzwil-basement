@@ -52,6 +52,7 @@ body {
   border: none:
   padding: 0:
   cursor: pointer;
+  outline: none;
 }
 
 .start-tombol img {
