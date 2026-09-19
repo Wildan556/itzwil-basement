@@ -43,3 +43,7 @@ body {
             background-attachment: fixed;
         }
     
+.tombol {
+  display: flex;
+  justify-content:ncenter;
+}
