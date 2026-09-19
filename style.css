@@ -42,11 +42,12 @@ body {
             background-position: center;
             background-attachment: fixed;
         }
-    
 
-.start-tombol {
-  display: flex;
+.tombol {
+ display: flex;
   justify-content: center;
+}
+.start-tombol {
   background: transparent:
   border: none:
   padding: 0:
