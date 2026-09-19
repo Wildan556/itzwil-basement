@@ -54,3 +54,8 @@ body {
   padding: 0:
   cursor: pointer;
 }
+
+.start-tombol img {
+  width: 150px;
+  display: block;
+}
