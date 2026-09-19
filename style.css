@@ -30,12 +30,16 @@ body {
             background-position: center;
             background-attachment: fixed;
         }
-.tulis1 {
+.judul1 {
   display: flex;
   justify-content: center;
   width: 80%;
 }
-  
+.subjudul1 {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
 .tombol {
  display: flex;
   justify-content: center;
