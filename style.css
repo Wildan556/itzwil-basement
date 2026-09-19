@@ -10,6 +10,10 @@ html, body {
   scroll-behavior: smooth;
 }
 
+img, video {
+  max-width: 100%;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1.5;
@@ -17,15 +21,6 @@ body {
   color: #333333;
 }
 
-.judul1 {
-  width: 5;
-  max-width: 100%;
-  margin: 0 auto;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
        
 body {
             background-image: url('img/background.jpg');
