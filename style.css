@@ -46,14 +46,13 @@ body {
   margin-right: 30px;
 }
 .tsetting {
-  border: none;
+  background: none;
   padding: 0;
   cursor: pointer;
   outline: none;
-  width: 100px;
 }
 .tsetting img {
-   width: 100px;
+   width: 24px;
   height: auto;
   display: block;
 }
