@@ -50,6 +50,7 @@ body {
 .tulis2 img { 
   width: 250px;
   height: auto;
+  margin-top: 50px;
 }
 
 .tombol {
@@ -62,7 +63,6 @@ body {
   padding: 0:
   cursor: pointer;
   outline: none;
-   margin-top: 50px;
 }
 
 .start-tombol img {
