@@ -43,16 +43,18 @@ body {
 .setting {
   display: flex;
   margin-left: auto;
-  margin-right: 30px;
+  margin-right: 50px;
+  margin-top: 50px
 }
 .tsetting {
   background: none;
   padding: 0;
   cursor: pointer;
   outline: none;
+  border: none;
 }
 .tsetting img {
-   width: 24px;
+   width: 45px;
   height: auto;
   display: block;
 }
