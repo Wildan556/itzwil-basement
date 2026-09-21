@@ -10,7 +10,11 @@ html, body {
   scroll-behavior: smooth;
 }
 
-
+img, video {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 body {
   font-family: sans-serif;
@@ -27,19 +31,25 @@ body {
             background-position: center;
             background-attachment: fixed;
         }
+
 .tulis1 {
   display: flex;
   justify-content: center;
-  align-items: center;
-  display: flex;
-  width: 60%;
+  width: 100%;
 }
+.tulis1 img { 
+  width: 300px;
+  height: auto;
+}
+
 .tulis2 {
   display: flex;
   justify-content: center;
-  align-items: center;
-  display: flex;
-  width: 40%;
+  width: 100%;
+}
+.tulis2 img { 
+  width: 300px;
+  height: auto;
 }
 
 .tombol {
