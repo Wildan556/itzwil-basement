@@ -38,6 +38,16 @@ body {
             background-attachment: fixed;
         }
 }
+
+/* <<< setting dan pesan >>>*/
+.setting {
+  display: flex;
+  margin-left: auto;
+  margin-right: 30px;
+}
+.setting button {
+  
+
 /* <<< GAMBAR JUDUL >>> */
 
 .tulis1 {
