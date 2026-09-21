@@ -90,7 +90,7 @@ body {
 .box {
 width: 400px;
   height: 140px;
-  background-color: black; /* bisa diganti background-img */
+  background-image: url('img/asset/banner11.jpg');
   border-radius: 30px;
   border-color: black;
    margin-top: 30px;
@@ -99,7 +99,7 @@ width: 400px;
 .box {
  width: 600px;
   height: 280px;
-  background-color: #9e9e9e; /* bisa diganti background-img */
+  background-image: url('img/asset/banner21.jpg');
   border-radius: 30px;
   border-color: black;
    margin-top: 30px;
