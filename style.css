@@ -40,11 +40,13 @@ body {
 }
 
 /* <<< setting dan pesan >>>*/
-.setting {
+.top-bar {
   display: flex;
+  flex-direction: row;
   justify-content: flex-end;
-  margin-right: 20px;
-  margin-top: 20px;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
 }
 .tsetting {
   background: none;
@@ -56,13 +58,6 @@ body {
    width: 35px;
   height: auto;
   display: block;
-}
-.pesan {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 80px;
-  margin-top: 20px;
-  margin-bottom: auto;
 }
 .tpesan {
   background: none;
