@@ -71,13 +71,7 @@ body {
   width: 100px;
   height: auto;
   display: block;
-}
-.start-tombol: hover {
-  transform: scale(1.10);
-  transition: transform 0.25s;
-}
-.start-tombol: active {
-  transform: scale(0.90);
+  justify-content: center;
 }
 
 <<< BANNER >>>
@@ -86,12 +80,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
 }
 .box {
   width: 600px;
   height: 280px;
   background-color: #9e9e9e;
   border-radius: 30px;
+   margin-top: 30px;
 }
 
