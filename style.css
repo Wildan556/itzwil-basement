@@ -10,11 +10,7 @@ html, body {
   scroll-behavior: smooth;
 }
 
-img, video {
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-}
+
 
 body {
   font-family: sans-serif;
