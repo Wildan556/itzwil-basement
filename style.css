@@ -60,7 +60,7 @@ body {
 .pesan {
   display: flex;
   justify-content: flex-end;
-  margin-right: 40px;
+  margin-right: 60px;
   margin-top: 20px;
 }
 .tpesan {
