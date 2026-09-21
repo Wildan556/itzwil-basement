@@ -48,17 +48,6 @@ body {
   gap: 15px;
   padding: 20px;
 }
-.tsetting {
-  background: none;
-  padding: 0;
-  cursor: pointer;
-  border: none;
-}
-.tsetting img {
-   width: 35px;
-  height: auto;
-  display: block;
-}
 .tpesan {
   background: none;
   padding: 0;
@@ -70,7 +59,17 @@ body {
   height: auto;
   display: block;
 }
-
+.tsetting {
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+}
+.tsetting img {
+   width: 35px;
+  height: auto;
+  display: block;
+}
 /* <<< GAMBAR JUDUL >>> */
 
 .tulis1 {
