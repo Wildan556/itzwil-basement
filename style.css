@@ -65,9 +65,10 @@ body {
 }
 
 .start-tombol img {
-  width: 150px;
+  width: 100px;
   height: auto;
   display: block;
+  margin-top: 50px;
 }
 .start-tombol: hover {
   transform: scale(1.10);
