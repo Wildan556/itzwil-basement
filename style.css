@@ -32,6 +32,7 @@ body {
             background-attachment: fixed;
         }
 
+<<< GAMBAR JUDUL >>>
 .tulis1 {
   display: flex;
   justify-content: center;
@@ -41,7 +42,6 @@ body {
   width: 450px;
   height: auto;
 }
-
 .tulis2 {
   display: flex;
   justify-content: center;
@@ -53,6 +53,7 @@ body {
   margin-top: 50px;
 }
 
+<<< TOMBOL1 >>>
 .tombol {
    display: flex;
   justify-content: center;
@@ -77,3 +78,6 @@ body {
 .start-tombol: active {
   transform: scale(0.90);
 }
+
+<<< BANNER >>>
+.banner 
