@@ -53,10 +53,10 @@ body {
   margin-top: 50px;
 }
 
-<<< TOMBOL1 >>>
+/* <<< TOMBOL1 >>> */
 
 .tombol {
-   display: flex;
+  display: flex;
   justify-content: center;
 }
 .start-tombol {
