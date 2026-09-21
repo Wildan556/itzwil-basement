@@ -62,13 +62,13 @@ body {
   padding: 0:
   cursor: pointer;
   outline: none;
+   margin-top: 50px;
 }
 
 .start-tombol img {
   width: 100px;
   height: auto;
   display: block;
-  margin-top: 50px;
 }
 .start-tombol: hover {
   transform: scale(1.10);
