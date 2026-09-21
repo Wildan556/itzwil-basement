@@ -44,17 +44,18 @@ body {
   display: flex;
   margin-left: auto;
   margin-right: 30px;
+}
+.tsetting {
   border: none;
   padding: 0;
   cursor: pointer;
   outline: none;
   width: 100px;
-  background-image: url('img/asset/setting.jpg');
-  background-size: cover;
-  background-position: center;
 }
-.tsetting {
- 
+.tsetting img {
+   width: 100px;
+  height: auto;
+  display: block;
 }
 
 /* <<< GAMBAR JUDUL >>> */
