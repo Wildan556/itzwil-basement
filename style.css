@@ -89,3 +89,12 @@ body {
   border-color: black;
    margin-top: 30px;
 }
+@media (min-width: 768px) {
+.box {
+  width: 400px;
+  height: 140px;
+  background-color: black; /* bisa diganti background-img */
+  border-radius: 30px;
+  border-color: black;
+   margin-top: 30px;
+}
