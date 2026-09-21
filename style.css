@@ -42,7 +42,7 @@ body {
 /* <<< setting dan pesan >>>*/
 .setting {
   display: flex;
-  margin-left: auto;
+  justify-content: flex-end;
   margin-right: 20px;
   margin-top: 20px;
 }
@@ -50,7 +50,6 @@ body {
   background: none;
   padding: 0;
   cursor: pointer;
-  outline: none;
   border: none;
 }
 .tsetting img {
