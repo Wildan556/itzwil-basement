@@ -45,8 +45,16 @@ body {
   margin-left: auto;
   margin-right: 30px;
 }
-.setting button {
-  
+.tsetting {
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  width: 50px;
+  background-image: url('img/asset/setting.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 /* <<< GAMBAR JUDUL >>> */
 
@@ -78,9 +86,9 @@ body {
   justify-content: center;
 }
 .start-tombol {
-  background: transparent:
-  border: none:
-  padding: 0:
+  background: transparent;
+  border: none;
+  padding: 0;
   cursor: pointer;
   outline: none;
 }
