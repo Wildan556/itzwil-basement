@@ -72,19 +72,4 @@ body {
   display: block;
 }
 
-<<< BANNER >>>
-.banner-wrapper {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.box {
-  width: 600px;
-  height: 280px;
-  background-color: #9e9e9e;
-  border-radius: 30px;
-  border-color: black;
-   margin-top: 30px;
-}
 
