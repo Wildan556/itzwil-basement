@@ -57,6 +57,23 @@ body {
   height: auto;
   display: block;
 }
+.pesan {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.tpesan {
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+}
+.tpesan img {
+   width: 35px;
+  height: auto;
+  display: block;
+}
 
 /* <<< GAMBAR JUDUL >>> */
 
