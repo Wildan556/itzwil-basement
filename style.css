@@ -42,8 +42,8 @@ body {
 /* <<< setting dan pesan >>>*/
 .setting {
   display: flex;
-  margin-top: 50px
-  margin-left: 100px;
+  margin-top: 25px;
+  margin-left: auto;
 }
 .tsetting {
   background: none;
