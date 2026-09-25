@@ -86,7 +86,7 @@ body {
 }
 
 /* Kotak Modal */
-.modal-content {
+.modal-popup {
   background-color: #ffffff;
   margin: 10% auto;
   padding: 24px;
@@ -109,14 +109,14 @@ body {
 }
 
 /* Form Input Styling */
-.modal-content h2 {
+.modal-popup h2 {
   margin-top: 0;
   color: #2c3e50;
   font-size: 20px;
 }
 
-.modal-content input,
-.modal-content textarea {
+.modal-popup input,
+.modal-popup textarea {
   width: 100%;
   padding: 12px;
   margin: 8px 0 16px 0;
@@ -127,8 +127,8 @@ body {
   font-size: 14px;
 }
 
-.modal-content input:focus,
-.modal-content textarea:focus {
+.modal-popup input:focus,
+.modal-popup textarea:focus {
   border-color: #4fc3f7;
 }
 
