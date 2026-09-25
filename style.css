@@ -81,21 +81,25 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.4); /* Efek gelap/transparan di belakang */
-  backdrop-filter: blur(4px); /* Efek blur background */
+  background-color: rgba(0, 0, 0, 0.25); 
+  backdrop-filter: blur(8px); /* Blur pada layar di belakang modal */
+  -webkit-backdrop-filter: blur(8px);
 }
 
 /* Kotak Modal */
 .modal-popup {
-  background-color: #ffffff;
+  background: rgba(255, 255, 255, 0.45); /* Putih transparan ala kaca */
+  backdrop-filter: blur(20px) saturate(180%); /* Efek buram & warna di belakang kaca lebih tajam */
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
   margin: 10% auto;
   padding: 24px;
   border-radius: 16px;
   width: 90%;
   max-width: 400px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15),
+              inset 0 0 0 1px rgba(255, 255, 255, 0.2); 
   position: relative;
-  font-family: sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
 }
 
 /* Tombol Close (X) */
@@ -120,33 +124,44 @@ body {
   width: 100%;
   padding: 12px;
   margin: 8px 0 16px 0;
-  border: 1px solid #e0e0e0;
+  background: rgba(255, 255, 255, 0.5); /* Input semi transparan */
+  border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: 10px;
   box-sizing: border-box;
   outline: none;
   font-size: 14px;
+  color: #1d1d1f;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  transition: all 0.2s ease;
 }
 
 .modal-popup input:focus,
 .modal-popup textarea:focus {
-  border-color: #4fc3f7;
+  background: rgba(255, 255, 255, 0.8);
+  border-color: #007aff; /* Warna biru khas Apple saat fokus */
+  box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.2);
 }
 
 /* Tombol Kirim */
 .submit-btn {
   width: 100%;
-  background-color: #4fc3f7;
+  background: #007aff; /* Warna biru khas Apple */
   color: white;
   border: none;
-  padding: 12px;
-  border-radius: 10px;
+  padding: 14px;
+  border-radius: 14px;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
 }
 
 .submit-btn:hover {
   background-color: #29b6f6;
+}
+.submit-btn:active {
+  transform: scale(0.98); /* Efek membal saat ditekan */
 }
 /* <<< GAMBAR JUDUL >>> */
 
