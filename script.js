@@ -20,11 +20,10 @@ window.onclick = function(event) {
   }
 }
 
-// Logic pas tombol Kirim diklik -> Buka Gmail
+// Logic pas tombol Kirim diklik -> Buka Aplikasi Gmail / Email HP
 contactForm.addEventListener("submit", function(event) {
   event.preventDefault(); // Mencegah reload halaman
 
-  // Email tujuan pakai email lu
   const emailTujuan = "itzwildan5@gmail.com"; 
 
   // Ambil data dari inputan form
@@ -32,7 +31,7 @@ contactForm.addEventListener("submit", function(event) {
   const emailUser = contactForm.querySelector('input[type="email"]').value;
   const pesan = contactForm.querySelector('textarea').value;
 
-  // Format Subject & Isi Pesan buat Gmail
+  // Format Subject & Isi Pesan
   const subject = encodeURIComponent(`Pesan Kontak Developer dari ${nama}`);
   const body = encodeURIComponent(
     `Halo Atmin,\n\nAda pesan baru dari website nih:\n\n` +
@@ -41,11 +40,8 @@ contactForm.addEventListener("submit", function(event) {
     `Pesan / Alasan Menghubungi:\n${pesan}`
   );
 
-  // Link khusus buat ngebuka Gmail Web tab baru
-  const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${emailTujuan}&su=${subject}&body=${body}`;
-
-  // Buka Gmail
-  window.open(gmailUrl, "_blank");
+  // Pake mailto: biar langsung manggil Aplikasi Email / Gmail di HP/Laptop
+  window.location.href = `mailto:${emailTujuan}?subject=${subject}&body=${body}`;
 
   // Reset isi form & tutup modal
   contactForm.reset();
