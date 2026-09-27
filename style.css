@@ -40,37 +40,7 @@ body {
 }
 
 /* <<< setting dan pesan >>>*/
-.top-bar {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 15px;
-  padding: 20px;
-}
-.tpesan {
-  margin-top: 5px;
-  background: none;
-  padding: 0;
-  cursor: pointer;
-  border: none;
-}
-.tpesan img {
-   width: 25px;
-  height: auto;
-  display: block;
-}
-.tsetting {
-  background: none;
-  padding: 0;
-  cursor: pointer;
-  border: none;
-}
-.tsetting img {
-   width: 25px;
-  height: auto;
-  display: block;
-}
+
 
 /* Background blur/overlay */
 .pesan {
