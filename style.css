@@ -39,8 +39,72 @@ body {
         }
 }
 
-/* <<< setting dan pesan >>>*/
+/* <<< top bar >>>*/
+/* Container Utama Navbar */
+.navbar-floating {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%); /* Biar persis di tengah horizontal */
+  z-index: 1000;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  
+  padding: 8px 12px 8px 24px;
+  background: rgba(255, 255, 255, 0.85); /* Warna putih agak transparan */
+  backdrop-filter: blur(10px); /* Efek blur kaca di belakangnya */
+  border-radius: 999px; /* Bikin bentuk kapsul melengkung mulus */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08); /* Bayangan tipis */
+}
 
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+/* Nav Links */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #4a4a4a;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #000;
+}
+
+/* Tombol Login (Kapsul Hitam) */
+.btn-login {
+  background-color: #0f172a;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 24px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.btn-login:hover {
+  background-color: #1e293b;
+}
 
 /* Background blur/overlay */
 .pesan {
