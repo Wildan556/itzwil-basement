@@ -89,7 +89,31 @@ body {
 .nav-links a:hover {
   color: #000;
 }
+/* Styling Khusus Layar HP (Maksimal Lebar 768px) */
+@media (max-width: 768px) {
+  .navbar-floating {
+    top: 12px;
+    width: 90%; /* Bikin lebar navbar 90% dari layar HP */
+    justify-content: space-between;
+    padding: 8px 12px 8px 16px; /* Padding lebih tipis */
+    gap: 12px;
+  }
 
+  /* Sembunyikan menu teks biasa biar gak memenuhi layar HP */
+  .nav-links {
+    display: none; 
+  }
+
+  /* Penyesuaian ukuran teks logo & tombol login */
+  .logo {
+    font-size: 14px;
+  }
+
+  .btn-login {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+}
 /* Tombol Login (Kapsul Hitam) */
 .btn-login {
   background-color: #0f172a;
