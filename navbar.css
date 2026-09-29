@@ -55,11 +55,10 @@
 .btn-login:hover {
   background-color: #1e293b;
 }
-/* Styling Khusus Layar HP (Maksimal Lebar 768px) */
 @media (max-width: 768px) {
   .navbar-floating {
     top: 12px;
-    width: 90%; /* Bikin lebar navbar 90% dari layar HP */
+    width: 65%; /* Bikin lebar navbar 90% dari layar HP */
     justify-content: space-between;
     padding: 8px 12px 8px 16px; /* Padding lebih tipis */
     gap: 12px;
@@ -67,19 +66,9 @@
 
   /* Sembunyikan menu teks biasa biar gak memenuhi layar HP */
   .nav-links {
-    display: flex; 
-    gap: 12px;
-    overflow-x: auto;
-    white-space: nowarp;
-    -webkit-overflow-scrolling:touch;
-    padding: 2px 0;
+    display: none; 
   }
-.navlinks: :-webkit-scrolbar {
-    display: none;
-}
-.nav-links a {
-    font-size: 12px;
-}
+
   /* Penyesuaian ukuran teks logo & tombol login */
   .logo {
     font-size: 14px;
@@ -88,6 +77,13 @@
   .btn-login {
     padding: 8px 16px;
     font-size: 12px;
-    flex-shrink: 0;
   }
+}
+/* Tombol Login (Kapsul Hitam) */
+.btn-login {
+  background-color: #0f172a;
+@@ -80,41 +55,28 @@
+}
+.btn-login:hover {
+  background-color: #1e293b;
 }
