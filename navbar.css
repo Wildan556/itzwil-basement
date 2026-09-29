@@ -58,7 +58,8 @@
 @media (max-width: 768px) {
   .navbar-floating {
     top: 12px;
-    width: 65%; /* Bikin lebar navbar 90% dari layar HP */
+    width: max-content; /* Bikin lebar navbar 90% dari layar HP */
+    max-width: 70%;
     justify-content: space-between;
     padding: 8px 12px 8px 16px; /* Padding lebih tipis */
     gap: 12px;
@@ -66,7 +67,8 @@
 
   /* Sembunyikan menu teks biasa biar gak memenuhi layar HP */
   .nav-links {
-    display: none; 
+    display: flex; 
+    gap: 10px;
   }
 
   /* Penyesuaian ukuran teks logo & tombol login */
@@ -75,7 +77,7 @@
   }
 
   .btn-login {
-    padding: 8px 16px;
+    padding: 6px 16px;
     font-size: 12px;
   }
 }
