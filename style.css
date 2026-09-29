@@ -40,7 +40,7 @@ body {
 }
 
 /* top bar */
-@import url(navbar.css);
+@import url('navbar.css');
 
 /* Background blur/overlay */
 .pesan {
