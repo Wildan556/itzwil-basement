@@ -67,9 +67,19 @@
 
   /* Sembunyikan menu teks biasa biar gak memenuhi layar HP */
   .nav-links {
-    display: none; 
+    display: flex; 
+    gap: 12px;
+    overflow-x: auto;
+    white-space: nowarp;
+    -webkit-overflow-scrolling:touch;
+    padding: 2px 0;
   }
-
+.navlinks: :-webkit-scrolbar {
+    display: none;
+}
+.nav-links a {
+    font-size: 12px;
+}
   /* Penyesuaian ukuran teks logo & tombol login */
   .logo {
     font-size: 14px;
@@ -78,5 +88,6 @@
   .btn-login {
     padding: 8px 16px;
     font-size: 12px;
+    flex-shrink: 0;
   }
 }
