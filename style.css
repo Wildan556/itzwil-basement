@@ -60,7 +60,7 @@ body {
 
 /* Kotak Modal */
 .modal-popup {
-  background: rgba(255, 255, 255, 0.205); /* Putih transparan ala kaca */
+  background: rgba(255, 255, 255, 0.290); /* Putih transparan ala kaca */
   backdrop-filter: blur(15px) saturate(180%); /* Efek buram & warna di belakang kaca lebih tajam */
   -webkit-backdrop-filter: blur(20px) saturate(180%);
   margin: 10% auto;
