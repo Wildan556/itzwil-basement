@@ -13,8 +13,8 @@
   gap: 32px;
   
   padding: 8px 12px 8px 24px;
-  background: rgba(255, 255, 255, 0.85); /* Warna putih agak transparan */
-  backdrop-filter: blur(10px); /* Efek blur kaca di belakangnya */
+  background: rgba(255, 255, 255, 0.205); /* Warna putih agak transparan */
+  backdrop-filter: blur(15px); /* Efek blur kaca di belakangnya */
   border-radius: 999px; /* Bikin bentuk kapsul melengkung mulus */
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08); /* Bayangan tipis */
 }
@@ -40,6 +40,21 @@
 .nav-links a:hover {
   color: #000;
 }
+/* Tombol Login (Kapsul Hitam) */
+.btn-login {
+  background-color: #0f172a;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 24px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.btn-login:hover {
+  background-color: #1e293b;
+}
 /* Styling Khusus Layar HP (Maksimal Lebar 768px) */
 @media (max-width: 768px) {
   .navbar-floating {
@@ -62,59 +77,6 @@
 
   .btn-login {
     padding: 8px 16px;
-    font-size: 12px;
-  }
-}
-/* Tombol Login (Kapsul Hitam) */
-.btn-login {
-  background-color: #0f172a;
-  color: #fff;
-  text-decoration: none;
-  padding: 10px 24px;
-  border-radius: 999px;
-  font-size: 14px;
-  font-weight: 500;
-  transition: background-color 0.2s;
-}
-
-.btn-login:hover {
-  background-color: #1e293b;
-}
-
-/* khusus hp*/
-@media (max-width: 768px) {
-  .navbar-floating {
-    top: 10px;
-    width: 92%;
-    padding: 6px 10px;
-    gap: 8px;
-  }
-
-  /* Biar menunya tetep ada tapi bisa di-scroll samping pas sempit */
-  .nav-links {
-    display: flex;
-    gap: 12px;
-    overflow-x: auto;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-    padding: 4px 0;
-  }
-
-  /* Sembunyiin scrollbar biar tetep estetik */
-  .nav-links::-webkit-scrollbar {
-    display: none;
-  }
-
-  .nav-links a {
-    font-size: 12px;
-  }
-
-  .logo {
-    font-size: 12px;
-  }
-
-  .btn-login {
-    padding: 6px 12px;
     font-size: 12px;
   }
 }
