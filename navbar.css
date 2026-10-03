@@ -12,7 +12,7 @@
   justify-content: space-between;
   gap: 32px;
   
-  border:#fff 3px;
+  border: #fff 3px;
   padding: 8px 12px 8px 24px;
   background: rgba(255, 255, 255, 0.205); /* Warna putih agak transparan */
   backdrop-filter: blur(15px); /* Efek blur kaca di belakangnya */
@@ -78,7 +78,7 @@
     max-width: 70%;
     justify-content: space-between;
     padding: 8px 12px 8px 16px; /* Padding lebih tipis */
-    gap: 100px;
+    gap: 45px;
   }
  
  .brand-name {
