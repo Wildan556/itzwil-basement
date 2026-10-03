@@ -66,24 +66,29 @@
   font-weight: 500;
   transition: background-color 0.2s;
 }
-
+.setting-hp:hover {
+  background-color: #4a4c53;
+}
 .btn-pesan:hover {
-  background-color: #1e293b;
+  background-color: #4a4c53;
 }
 /* hp */
 @media (max-width: 768px) {
   .navbar-floating {
     top: 12px;
     width: max-content; /* Bikin lebar navbar 90% dari layar HP */
-    max-width: 70%;
+    max-width: 75%;
     justify-content: space-between;
     padding: 8px 12px 8px 16px; /* Padding lebih tipis */
     gap: 16px;
   }
- 
+ .setting-hp {
+    padding: 6px 16px;
+    max-width: 75%;
+ }
  .brand-name {
     font-size: 16px;
-    color: #2c2c2c;
+    color: #000000;
   }
   /* Sembunyikan menu teks biasa biar gak memenuhi layar HP */
   .nav-links {
@@ -100,10 +105,5 @@
     font-size: 12px;
   }
 }
-/* Tombol Login (Kapsul Hitam) */
-.btn-login {
-  background-color: #0f172a;
-}
-.btn-login:hover {
-  background-color: #1e293b;
-}
+
+
