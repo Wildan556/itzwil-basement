@@ -21,22 +21,7 @@
 }
 
 .setting-hp {
-  background-color: #191f30;
-  padding: 10px 24px;
-  border-radius: 999px;
-  font-size: 14px;
-  font-weight: 500;
-  transition: background-color 0.2s;
-  color: #fff;
-  text-decoration: none;
-  cursor: pointer;
-  transition: opacity 0,2s ease, transform 0,1s ease;
-}
-.setting-hp:hover {
-  background-color: #4a4c53;
-}
-.setting-hp:active {
-  transform: scale(0,98);
+  display:none;
 }
 
 .brand-name {
@@ -93,9 +78,24 @@
     gap: 16px;
   }
  .setting-hp {
-   padding: 6px 16px;
-   font-size: 12px;
+  background-color: #191f30;
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0,2s ease, transform 0,1s ease;
  }
+ .setting-hp:hover {
+  background-color: #4a4c53;
+ }
+ .setting-hp:active {
+  transform: scale(0,98);
+ }
+ 
  .brand-name {
     font-size: 16px;
     color: #000000;
