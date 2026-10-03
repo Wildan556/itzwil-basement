@@ -69,9 +69,15 @@
     gap: 100px;
   }
   .setting-hp {
+    background-color: #0f172a;
+    padding: 10px 24px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s;
     display: flex;
-    transition: color 0,2s;
-    color: #2c2c2c;
+    color: #fff;
+    text-decoration: none;
   }
  .brand-name {
     font-size: 16px;
