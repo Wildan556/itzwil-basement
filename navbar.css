@@ -18,7 +18,10 @@
   border-radius: 999px; /* Bikin bentuk kapsul melengkung mulus */
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08); /* Bayangan tipis */
 }
-
+.brand-name {
+  fomt-size: 16px;
+  color: #2c2c2c;
+}
 
 /* Nav Links */
 .nav-links {
@@ -63,7 +66,7 @@
     max-width: 70%;
     justify-content: space-between;
     padding: 8px 12px 8px 16px; /* Padding lebih tipis */
-    gap: 12px;
+    gap: 100px;
   }
 
   /* Sembunyikan menu teks biasa biar gak memenuhi layar HP */
