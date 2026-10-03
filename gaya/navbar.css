@@ -30,6 +30,13 @@
   color: #fff;
   text-decoration: none;
 }
+.setting-hp:hover {
+  background-color: #4a4c53;
+}
+.setting-hp:active {
+  scale: 0,98;
+}
+
 .brand-name {
   font-size: 16px;
   color: #2c2c2c;
@@ -66,8 +73,8 @@
   font-weight: 500;
   transition: background-color 0.2s;
 }
-.setting-hp:hover {
-  background-color: #4a4c53;
+.btn-pesan:active {
+  scale: 0,98;
 }
 .btn-pesan:hover {
   background-color: #4a4c53;
