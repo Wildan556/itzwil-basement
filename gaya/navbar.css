@@ -29,7 +29,7 @@
   transition: background-color 0.2s;
   color: #fff;
   text-decoration: none;
-  transition: background-color 0,2s, transform 0,1s;
+  transition: background-color 0,2s ease, transform 0,1s ease;
 }
 .setting-hp:hover {
   background-color: #4a4c53;
@@ -72,7 +72,7 @@
   border-radius: 999px;
   font-size: 14px;
   font-weight: 500;
-  transition: background-color 0.2s, transform 0,1s;
+  transition: background-color 0.2s ease, transform 0,1s ease;
 }
 .btn-pesan:active {
   transform: scale(0,98);
