@@ -7,6 +7,8 @@
 }
 * {
   -webkit-tap-hightlight-color: transparent;
+  -webkit-user-select: none
+  -webkit-touch-callout: none;
 }
 
 html, body {
