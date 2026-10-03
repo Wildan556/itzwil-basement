@@ -19,6 +19,10 @@
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08); /* Bayangan tipis */
 }
 
+.brand-name {
+  font-size: 16px;
+  color: #2C2C2C;
+}
 
 /* Nav Links */
 .nav-links {
@@ -43,7 +47,7 @@
 /* Tombol Login (Kapsul Hitam) */
 .btn-pesan {
   background-color: #0f172a;
-  color: #fff;
+  color: #f7f7f7;
   text-decoration: none;
   padding: 10px 24px;
   border-radius: 999px;
