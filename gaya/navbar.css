@@ -34,7 +34,7 @@
   background-color: #4a4c53;
 }
 .setting-hp:active {
-  scale: 0,98;
+  transform: scale(0,98);
 }
 
 .brand-name {
@@ -74,7 +74,7 @@
   transition: background-color 0.2s;
 }
 .btn-pesan:active {
-  scale: 0,98;
+  transform: scale(0,98);
 }
 .btn-pesan:hover {
   background-color: #4a4c53;
