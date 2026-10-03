@@ -59,10 +59,10 @@
   font-size: 14px;
   font-weight: 500;
   cursor: pointer;
-  transition: opacity 0.2s ease, transform 0,1s ease-in-out;
+  transition: opacity 0.2s ease, transform 0.1s ease-in-out;
 }
 .btn-pesan:active {
-  transform: scale(0,98);
+  transform: scale(0.98);
 }
 .btn-pesan:hover {
   background-color: #4a4c53;
@@ -88,13 +88,13 @@
   color: #fff;
   text-decoration: none;
   cursor: pointer;
-  transition: opacity 0,2s ease, transform 0,1s ease-in-out;
+  transition: opacity 0.2s ease, transform 0.1s ease-in-out;
  }
  .setting-hp:hover {
   background-color: #4a4c53;
  }
  .setting-hp:active {
-  transform: scale(0,98);
+  transform: scale(0.98);
  }
  
  .brand-name {
