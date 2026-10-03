@@ -173,12 +173,18 @@ body {
   padding: 0;
   cursor: pointer;
   outline: none;
-  -webkit-tap-hightlight-color: transparent;
+  transsition: transform 0.1s ease-in-out, color 0.2s ease-in-out;
 }
 .start-tombol img {
   width: 100px;
   height: auto;
   display: block;
+}
+.start-tombol:active {
+  transform: scale(0.9);
+}
+.start-tombol img:hover {
+  color: #5a66a736;
 }
 
 /* <<< BANNER >>> */
