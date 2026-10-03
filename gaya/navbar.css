@@ -29,6 +29,7 @@
   transition: background-color 0.2s;
   color: #fff;
   text-decoration: none;
+  transition: background-color 0,2s, transform 0,1s;
 }
 .setting-hp:hover {
   background-color: #4a4c53;
@@ -62,7 +63,7 @@
 .nav-links a:hover {
   color: #000;
 }
-/* Tombol Login (Kapsul Hitam) */
+/* Tombol Pesan! (Kapsul Hitam) */
 .btn-pesan {
   background-color: #191f30;
   color: #fff;
@@ -71,7 +72,7 @@
   border-radius: 999px;
   font-size: 14px;
   font-weight: 500;
-  transition: background-color 0.2s;
+  transition: background-color 0.2s, transform 0,1s;
 }
 .btn-pesan:active {
   transform: scale(0,98);
