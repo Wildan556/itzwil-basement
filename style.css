@@ -168,6 +168,7 @@ body {
   padding: 0;
   cursor: pointer;
   outline: none;
+  -webkit-tap-hightlight-color: transparent;
 }
 .start-tombol img {
   width: 100px;
