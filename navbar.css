@@ -67,7 +67,7 @@
     max-width: 70%;
     justify-content: space-between;
     padding: 8px 12px 8px 16px; /* Padding lebih tipis */
-    gap: 100px;
+    gap: 100%;
   }
 
   /* Sembunyikan menu teks biasa biar gak memenuhi layar HP */
