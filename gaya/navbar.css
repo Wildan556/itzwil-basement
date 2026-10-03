@@ -62,7 +62,7 @@
   transition: opacity 0.2s ease, transform 0.1s ease-in-out;
 }
 .btn-pesan:active {
-  transform: scale(0.98);
+  transform: scale(0.9);
 }
 .btn-pesan:hover {
   background-color: #4a4c53;
@@ -94,7 +94,7 @@
   background-color: #4a4c53;
  }
  .setting-hp:active {
-  transform: scale(0.98);
+  transform: scale(0.9);
  }
  
  .brand-name {
