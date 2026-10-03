@@ -12,6 +12,7 @@
   justify-content: space-between;
   gap: 32px;
   
+  border:#fff 3px;
   padding: 8px 12px 8px 24px;
   background: rgba(255, 255, 255, 0.205); /* Warna putih agak transparan */
   backdrop-filter: blur(15px); /* Efek blur kaca di belakangnya */
@@ -20,7 +21,7 @@
 }
 
 .setting-hp {
-  background-color: #0f172a;
+  background-color: #191f30;
   padding: 10px 24px;
   border-radius: 999px;
   font-size: 14px;
@@ -56,7 +57,7 @@
 }
 /* Tombol Login (Kapsul Hitam) */
 .btn-pesan {
-  background-color: #0f172a;
+  background-color: #191f30;
   color: #fff;
   text-decoration: none;
   padding: 10px 24px;
