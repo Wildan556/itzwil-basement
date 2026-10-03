@@ -83,7 +83,8 @@
     gap: 16px;
   }
  .setting-hp {
-    max-width: 75%;
+   padding: 6px 16px;
+   font-size: 12px;
  }
  .brand-name {
     font-size: 16px;
