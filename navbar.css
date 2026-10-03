@@ -58,7 +58,6 @@
 /* hp */
 @media (max-width: 768px) {
   .navbar-floating {
-    display: none;
     top: 12px;
     width: max-content; /* Bikin lebar navbar 90% dari layar HP */
     max-width: 70%;
@@ -69,7 +68,7 @@
 
   /* Sembunyikan menu teks biasa biar gak memenuhi layar HP */
   .nav-links {
-    display: flex; 
+    display: none; 
   }
 
   /* Penyesuaian ukuran teks logo & tombol login */
