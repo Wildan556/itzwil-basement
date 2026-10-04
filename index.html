@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body> 
+    /* Navbar FLoating */
     <nav class="navbar-floating">
-    <a href="#" class="setting-hp">☰</a>   
-    <span class="brand-name">Welcome!</span>
+    <a href="#" class="setting-hp" onclick="toggleSidebar()">☰</a>   
+    <span class="navbar-tulis">Welcome!</span>
   
   <ul class="nav-links">
     <li><a href="#">Home</a></li>
@@ -21,6 +22,33 @@
 
   <a href="#" class="btn-pesan">Pesan!</a>
 </nav>
+    
+     /* Side Fitur */
+ <aside class="sidebar" id="sidebar">
+      <div class="sidebar-kepala">
+        <button class="close-btn" onclick="toggleSidebar()">X</button>
+        <span class="brand-name">ItzWill Basement</span>
+      </div>
+
+      <nav class="sidebar-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Comment</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <span class="sidebar-hubungi">Sosial Media</span>
+      <nav class="sidebar-sosmed">
+        <ul>
+            <li><a href="https://www.instagram.com/then.wildan?sktn=MXFqMzhrM2U0ODMxcg==">I</a></li>
+            <li><a hreef="https://www.tiktok.com/@itzwil25?_r=18_t=ZS-9AGoNN740O7">T</a></li>
+            <li><a href="https://wa.me/6281537547013?text=Halo%Atmin$Itzwill!">W</a></li>
+        </ul>
+      </nav>
+      <span class="sidebar-footer">© 2026 ItzWill Basement</span>
+     </aside>
+
     <!-- Pop Pesan -->
  <div id="pesanPopup" class="pesan">
         <div class="modal-popup">
@@ -36,20 +64,20 @@
         </div>
     </div>
 
-    <div class="tulis1"; align="center">
+ <div class="tulis1"; align="center">
     <img class="judul1"; src="img/judul/judul1.png";
         alt="judul1";>
     </div>
-    <div class="tulis2"; align="center">
+ <div class="tulis2"; align="center">
     <img class="subjudul1"; src="img/judul/subjudul1.png";
         alt="subjudul1";>
     </div>
     
-    <div class="tombol">
+ <div class="tombol">
        <button class="start-tombol"> 
             <img src="img/asset/start.png"; alt="Sign Up"> </button> </div>
 
-    <div class="banner-wrapper">
+  <div class="banner-wrapper">
         <div class="box"></div>
     </div>
        <script src="script.js"></script>
