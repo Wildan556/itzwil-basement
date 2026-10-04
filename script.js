@@ -5,7 +5,7 @@ const contactForm = document.getElementById("contactForm");
 
 // Buka modal saat tombol diklik
 openBtn.forEach(btn => {
-  btn.ooonclick = function(e) {
+  btn.onclick = function(e) {
     e.preventDefault();
     modal.style.display = "block";
   }
