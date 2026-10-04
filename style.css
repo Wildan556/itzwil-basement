@@ -7,7 +7,7 @@
 }
 * {
   -webkit-tap-highlight-color: transparent;
-  -webkit-user-select: none;
+  user-select: none;
   -webkit-touch-callout: none;
 }
 
@@ -173,7 +173,7 @@ body {
   padding: 0;
   cursor: pointer;
   outline: none;
-  transsition: transform 0.1s ease-in-out, color 0.2s ease-in-out;
+  transition: transform 0.1s ease-in-out, color 0.2s ease-in-out;
 }
 .start-tombol img {
   width: 100px;
