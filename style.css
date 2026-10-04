@@ -78,13 +78,13 @@ body {
 }
 
 /* Tombol Close (X) */
-.close-btn {
+.close-pesan {
   position: absolute;
   right: 16px;
   top: 12px;
   font-size: 24px;
   cursor: pointer;
-  color: #aaa;
+  color: #424242;
 }
 
 /* Form Input Styling */

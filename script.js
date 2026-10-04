@@ -1,11 +1,11 @@
 const modal = document.getElementById("pesanPopup");
 const openBtn = document.querySelectorAll(".pesanModal");
-const closeBtn = document.querySelector(".close-btn");
+const closeBtn = document.querySelector(".close-pesan");
 const contactForm = document.getElementById("contactForm");
 
 // Buka modal saat tombol diklik
 openBtn.forEach(btn => {
-  btn.onclick = function(e) {
+  btn.ooonclick = function(e) {
     e.preventDefault();
     modal.style.display = "block";
   }
