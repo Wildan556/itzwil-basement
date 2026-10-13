@@ -47,12 +47,12 @@
     border: none;
     font-size: 24px;
     cursor: pointer;
-    color: #3d3c3c;
+    color: #000;
 }
 .brand-name {
     font-size: 24px;
     font-weight: bold;
-    color: #3d3c3c;
+    color: #000;
     text-decoration: none;
 }
 
@@ -66,7 +66,7 @@
 }
 .sidebar-nav a {
     text-decoration: none;
-    color: #3d3c3c;
+    color: #000;
     font-size: 18px;
     display: block;
     padding: 10px 15px;
