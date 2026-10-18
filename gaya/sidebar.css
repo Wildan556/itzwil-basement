@@ -82,11 +82,11 @@
 }
 
 .ig-icon, .tt-icon, .wa-icon {
-    width: 30px;
+    background: transparent;
+    border: none;
     padding: 0;
-    height: 30px;
-    object-fit: cover;
-    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
     transition: transform 0.3s ease;
     
 }
