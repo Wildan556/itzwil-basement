@@ -81,6 +81,11 @@
     gap: 15px;
 }
 
-.ig {
-    background-img: url('https://www.simplify.web.id/wp-content/uploads/2025/10/Logo-Instagram.webp');
+.ig-icon, .tt-icon, .wa-icon {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    
 }
