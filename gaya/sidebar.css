@@ -83,6 +83,7 @@
 
 .ig-icon, .tt-icon, .wa-icon {
     width: 30px;
+    padding: 0;
     height: 30px;
     object-fit: cover;
     border-radius: 50%;
