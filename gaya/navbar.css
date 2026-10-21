@@ -50,10 +50,6 @@
   gap: 24px;
   margin: 0;
   padding: 0;
-  transition: transform 0.2s ease-in-out;
-}
-.nav-links:hover {
-  transform: scale(1.1);
 }
 
 .nav-links a {
@@ -61,12 +57,12 @@
   color: #2c2c2c;
   font-size: 14px;
   font-weight: 500;
-  transition: color 0.2s;
+  transition: transform 0.2s ease-in-out;
+}
+.nav-links:hover {
+  transform: scale(1.1);
 }
 
-.nav-links a:hover {
-  color: #000;
-}
 /* Tombol Pesan! (Kapsul Hitam) */
 .btn-pesan {
   background-color: #191f30;
