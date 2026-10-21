@@ -91,6 +91,7 @@
 .ig-icon, .tt-icon, .wa-icon {
     width: 30px;
     height: 30px;
-    transition: transform 0.3s ease;
+    display: block;
+    background: transparent;
     
 }
