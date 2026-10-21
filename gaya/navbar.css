@@ -33,7 +33,7 @@
   cursor: pointer;
   transition: opacity 0.2s ease-in-out, transform 0.1s ease-in-out, background-color 0.2s ease-in-out;
 }
-.btn-pesan:hover {
+.setting-hp:hover {
   background-color: #4a4c53;
   transform: scale(1.1);
 }
@@ -109,6 +109,10 @@
 
  .setting-hp {
   display: block;
+ }
+ .setting-hp:hover {
+  background-color: none;
+  transform: none;
  }
  .setting-hp:active {
   transform: scale(0.9);
