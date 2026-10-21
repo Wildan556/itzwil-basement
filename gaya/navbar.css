@@ -97,7 +97,7 @@
     padding: 8px 12px 8px 16px; /* Padding lebih tipis */
     gap: 16px;
   }
- .btn-pesan {
+ .btn-pesan:hover {
   background-color: none;
   transform: none;
  }
