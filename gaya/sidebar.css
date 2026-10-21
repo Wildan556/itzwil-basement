@@ -87,6 +87,7 @@
     padding: 0;
     cursor: pointer;
     outline: none;
+    background-color:rgba(0, 0, 0, 0.205)
 }
 .ig-icon, .tt-icon, .wa-icon {
     width: 30px;
