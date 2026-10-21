@@ -77,15 +77,17 @@
 .sidebar-sosmed {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.tt, .ig, .wa {
     background: transparent;
     border: none;
     padding: 0;
     cursor: pointer;
     outline: none;
-    margin-top: 30px;
-    gap: 15px;
 }
-
 .ig-icon, .tt-icon, .wa-icon {
     width: 30px;
     height: 30px;
