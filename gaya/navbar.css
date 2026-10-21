@@ -66,7 +66,8 @@
   transform: scale(0.9);
 }
 .btn-pesan:hover {
-  background-color: #4a4c53;
+  background-color: #4a4c53
+  transform: scale(1.1);
 }
 /* hp */
 @media (max-width: 768px) {
@@ -94,6 +95,7 @@
  }
  .setting-hp:hover {
   background-color: #4a4c53;
+  transform: scale(1.1);
  }
  .setting-hp:active {
   transform: scale(0.9);
