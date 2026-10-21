@@ -21,7 +21,21 @@
 }
 
 .setting-hp {
-  display:none;
+  display: none;
+  background-color: #191f30;
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out, transform 0.1s ease-in-out, background-color 0.2s ease-in-out;
+}
+.btn-pesan:hover {
+  background-color: #4a4c53;
+  transform: scale(1.1);
 }
 
 .navbar-tulis {
@@ -65,12 +79,12 @@
   cursor: pointer;
   transition: transform 0.1s ease-in-out, background-color 0.2s ease-in-out;
 }
+.btn-pesan:active {
+  transform: scale(0.9);
+}
 .btn-pesan:hover {
   background-color: #4a4c53;
   transform: scale(1.1);
-}
-.btn-pesan:active {
-  transform: scale(0.9);
 }
 
 /* hp */
@@ -83,22 +97,13 @@
     padding: 8px 12px 8px 16px; /* Padding lebih tipis */
     gap: 16px;
   }
+ .btn-pesan {
+  background-color: none;
+  transform: none;
+ }
+
  .setting-hp {
   display: block;
-  background-color: #191f30;
-  padding: 6px 16px;
-  border-radius: 999px;
-  font-size: 12px;
-  font-weight: 500;
-  transition: background-color 0.2s;
-  color: #fff;
-  text-decoration: none;
-  cursor: pointer;
-  transition: opacity 0.2s ease-in-out, transform 0.1s ease-in-out, background-color 0.2s ease-in-out;
- }
- .setting-hp:hover {
-  background-color: #4a4c53;
-  transform: scale(1.1);
  }
  .setting-hp:active {
   transform: scale(0.9);
