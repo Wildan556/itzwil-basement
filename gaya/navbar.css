@@ -97,9 +97,14 @@
     padding: 8px 12px 8px 16px; /* Padding lebih tipis */
     gap: 16px;
   }
+
  .btn-pesan:hover {
   background-color: none;
   transform: none;
+ }
+ .btn-pesan:active {
+  transform: scale(0.9);
+  background-color: #4a4c53;
  }
 
  .setting-hp {
@@ -107,6 +112,7 @@
  }
  .setting-hp:active {
   transform: scale(0.9);
+  background-color: #4a4c53;
  }
  
  .brand-name {
