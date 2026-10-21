@@ -35,7 +35,7 @@
 }
 .setting-hp:hover {
   background-color: #4a4c53;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .navbar-tulis {
@@ -80,7 +80,7 @@
 }
 .btn-pesan:hover {
   background-color: #4a4c53;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 /* hp */
