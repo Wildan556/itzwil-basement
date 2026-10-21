@@ -71,7 +71,10 @@
     display: block;
     padding: 10px 15px;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    transition: transform 0.2s ease-in-out;
+}
+.sidebar-nav a:hover {
+    transform: scale(1.05);
 }
 
 .sidebar-sosmed {
@@ -92,14 +95,16 @@
     width: 30px;
     height: 30px;
     display: block;
-    outline: auto;
     border: 2px solid #ffffff;
     border-radius: 8px;
     box-shadow: rgba(255, 255, 255, 0.205);
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.15s ease-in-out;
 }
 .tt-icon:hover, .ig-icon:hover, .wa-icon:hover {
     transform: scale(1.2);
+}
+.tt-icon:active, .ig-icon:active, .wa-icon:active {
+    transform: scale(0.9);
 }
 
 .sidebar-hubungi {
