@@ -59,16 +59,16 @@
   font-size: 14px;
   font-weight: 500;
   cursor: pointer;
-  transition: opacity 0.2s ease, transform 0.1s ease-in-out, background-color 0.2s ease-in-out;
-  -webkit-tap-hightlight-color:transparent;
+  transition: transform 0.1s ease-in-out, background-color 0.2s ease-in-out;
+}
+.btn-pesan:hover {
+  background-color: #4a4c53;
+  transform: scale(1.1);
 }
 .btn-pesan:active {
   transform: scale(0.9);
 }
-.btn-pesan:hover {
-  background-color: #4a4c53
-  transform: scale(1.1);
-}
+
 /* hp */
 @media (max-width: 768px) {
   .navbar-floating {
@@ -91,7 +91,6 @@
   text-decoration: none;
   cursor: pointer;
   transition: opacity 0.2s ease-in-out, transform 0.1s ease-in-out, background-color 0.2s ease-in-out;
-  -webkit-tap-hightlight-color: transparent;
  }
  .setting-hp:hover {
   background-color: #4a4c53;
