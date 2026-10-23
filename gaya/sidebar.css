@@ -80,6 +80,14 @@
     transform: scale(1.05);
 }
 
+.sidebar-sosmed {
+    display: flex;
+    flex-direction:row;
+    gap: 15px;
+    margin-top: auto;
+    margin-bottom: 10px;
+
+}
 .s-sosmed {
     display: flex;
     justify-content: center;
