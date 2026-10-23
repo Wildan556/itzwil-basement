@@ -80,10 +80,10 @@
     transform: scale(1.05);
 }
 
-.sidebar-sosmed {
+.s-sosmed {
+    display: flex;
+    justify-content: center;
     margin-top: auto;
-    margin-bottom: 20px;
-    gap: 15px;
 }
 .tt, .ig, .wa {
     background: transparent;
@@ -91,6 +91,7 @@
     padding: 0;
     cursor: pointer;
     outline: none;
+    margin-top: auto;
 }
 .ig-icon, .tt-icon, .wa-icon {
     width: 30px;
@@ -112,10 +113,12 @@
     text-align: center;
     color: #000;
     font-size: 16px;
+    margin-top: auto;
 }
 
 .sidebar-footer {
     text-align: center;
     color: #333333;
     font-size: 14px;
+    margin-top: auto;
 }
