@@ -82,7 +82,7 @@
 
 .sidebar-sosmed {
     display: flex;
-    flex-direction:row;
+    flex-direction:columns;
     gap: 15px;
     margin-top: auto;
     margin-bottom: 10px;
