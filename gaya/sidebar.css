@@ -81,8 +81,6 @@
 }
 
 .sidebar-sosmed {
-    display: flex;
-    justify-content: center;
     margin-top: auto;
     margin-bottom: 20px;
     gap: 15px;
