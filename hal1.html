@@ -8,14 +8,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body> 
+  <script src="script.js"></script>
+
     <!--Navbar-->
     <nav class="navbar-floating">
     <a href="#" class="setting-hp" onclick="toggleSidebar()">☰</a>   
     <span class="navbar-tulis">Welcome!</span>
   
   <ul class="nav-links">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Karya</a></li>
+    <li><a href="home">Home</a></li>
+    <li><a href="karya">Karya</a></li>
     <li><a href="#">Menu</a></li>
     <li><a href="#" class="pesanModal">Contact</a></li>
   </ul>
@@ -27,14 +29,14 @@
 <div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
 <aside class="sidebar" id="sidebar">
       <div class="sidebar-kepala">
-        <button class="close-sidebar" onclick="toggleSidebar()">X</button>
+        <button class="clos e-sidebar" onclick="toggleSidebar()">X</button>
         <span class="brand-name">ItzWill Basement</span>
       </div>
 
       <nav class="sidebar-nav">
         <ul>
-            <li><a href="#">┃ Home</a></li>
-            <li><a href="#">┃ Comment</a></li>
+            <li><a href="home">┃ Home</a></li>
+            <li><a href="karya">┃ Karya</a></li>
             <li><a href="#">┃ Menu</a></li>
             <li><a href="#" class="pesanModal" onclick="toggleSidebar()">┃ Contact</a></li>
         </ul>
@@ -64,7 +66,10 @@
                 </form>
         </div>
     </div>
-
+    <!-- Halaman -->
+    <div class="semua-konten">
+    <!-- Konten Home -->
+<section class="konten-home" id="home"></section>
  <div class="tulis1"; align="center">
     <img class="judul1"; src="img/judul/judul1.png";
         alt="judul1";>
@@ -81,7 +86,14 @@
   <div class="banner-wrapper">
         <div class="box"></div>
     </div>
-       <script src="script.js"></script>
+</section>
+
+   <!-- Karya -->
+<section class="konten-karya" id="karya">
+<h1>Karya</h1>
+</section>
+
+    </div>
 </body>
 
 </html>

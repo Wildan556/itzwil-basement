@@ -57,9 +57,9 @@
   color: #2c2c2c;
   font-size: 14px;
   font-weight: 500;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease;
 }
-.nav-links a:hover, .nav-links a:active {
+.nav-links a:hover {
   transform: scale(1.05);
 }
 

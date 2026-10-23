@@ -47,7 +47,18 @@ body {
         }
 }
 
-/* top bar */
+.semua-konten {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
 
 
 /* Background blur/overlay */
