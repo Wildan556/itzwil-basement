@@ -2,7 +2,7 @@
 /* Font */
 @font-face {
   font-family: 'Eternalo';
-  src: url(https://www.dafont.com/eternalo.font);
+  src: url(font/eternalo.ttf);
 }
 
 .judul-home {
