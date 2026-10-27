@@ -1,6 +1,6 @@
 @import url('gaya/navbar.css');
 @import url('gaya/sidebar.css');
-@import url('gaya/halaman1.css')
+@import url('gaya/halaman1.css');
 
 *, *::before, *::after {
   box-sizing: border-box;
