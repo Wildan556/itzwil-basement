@@ -1,0 +1,81 @@
+/* <<< GAMBAR JUDUL >>> */
+
+.judul-home {
+  display: block;
+  font-family: 'Eternalo', serif ;
+}
+.jbesar-home {
+    display: flex;
+    color: white;
+    box-shadow: 2px;
+    margin-top: 10%;
+}
+.jkecil-home {
+    display: flex;
+    color: white;
+    margin-top: 0;
+    margin-botom: 35px;
+}
+.jsedang-home {
+    display:flex;
+    color:white;
+    margin-bottom: 10px;
+}
+
+/* <<< TOMBOL1 >>> */
+
+.tombol {
+  display: flex;
+  justify-content: center;
+}
+.start-tombol {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.1s ease-in-out, color 0.2s ease-in-out;
+}
+.start-tombol img {
+  width: 100px;
+  height: auto;
+  display: block;
+}
+.start-tombol:active {
+  transform: scale(0.9);
+}
+.start-tombol img:hover {
+  color: #5a66a736;
+}
+
+/* <<< BANNER >>> */
+.banner-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+width: 400px;
+  height: 200px;
+  background-image: url('img/asset/banner21.jpg');
+  border-radius: 30px;
+  border-color: black;
+   margin-top: 30px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+.box {
+ width: 600px;
+  height: 280px;
+  background-image: url('img/asset/banner21.jpg');
+  border-radius: 30px;
+  border-color: black;
+  margin-top: 30px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+}
