@@ -48,11 +48,7 @@ body {
         }
 }
 
-/* Font */
-@font-face {
-  font-family: 'Eternalo' ;
-  src: url(https://www.dafont.com/eternalo.font);
-}
+
 
 .semua-konten {
   display: flex;

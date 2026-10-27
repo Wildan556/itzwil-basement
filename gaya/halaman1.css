@@ -1,4 +1,9 @@
 /* <<< GAMBAR JUDUL >>> */
+/* Font */
+@font-face {
+  font-family: 'Eternalo';
+  src: url(https://www.dafont.com/eternalo.font);
+}
 
 .judul-home {
   display: block;
